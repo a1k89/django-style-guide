@@ -19,7 +19,10 @@ For example, your have `auth` api module with methods `auth_get_code`, `auth_ent
 
 ```python
 class AuthEnterCodeTestCase(BaseTestCase):
-  pass
+  def test_of_feature_1(self):
+    pass
+  def test_of_feature_2(self):
+    pass
 ```
 
 `tests.auth.test_auth_get_code`
