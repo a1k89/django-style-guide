@@ -1,5 +1,10 @@
 Django styleguide that I use in my projects.
 ### Testing
+1. First of all write test (skeleton) for your feature
+2. Run test. Of course your get fail
+3. Write your code and re-run test. You must to get pass of it
+
+
 
 #### API
 
