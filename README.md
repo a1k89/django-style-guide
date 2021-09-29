@@ -10,9 +10,16 @@ Django styleguide that I use in my projects.
 
 For example, your have `auth` api module with methods `auth_get_code`, `auth_enter_code`. 
 
-`tests.auth` -> `test_auth_get_code.py, test_auth_enter_code.py`
+`tests.auth.test_auth_enter_code`
 
 ```python
 class AuthEnterCodeTestCase(BaseTestCase):
+  pass
+```
+
+`tests.auth.test_auth_get_code`
+
+```python
+class AuthGetCodeTestCase(BaseTestCase):
   pass
 ```
